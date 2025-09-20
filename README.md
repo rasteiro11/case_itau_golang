@@ -11,11 +11,13 @@ Ele não contém código-fonte de serviços específicos, mas agrupa informaçõ
 
 1. [Arquitetura](#arquitetura)  
    1.1 [Principais características](#principais-características)  
-   1.2 [Diagramas](#diagramas)  
+   1.2 [Diagramas](#diagramas)
+   1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)  
+   1.4 [Fluxo de Transferência](#fluxo-de-transferência) 
 
-2. [Serviços Principais](#serviços-principais)  
+3. [Serviços Principais](#serviços-principais)  
 
-3. [Tecnologias](#tecnologias)  
+4. [Tecnologias](#tecnologias)  
    3.1 [Linguagens e Frameworks](#linguagens-e-frameworks)  
    3.2 [Banco de Dados](#banco-de-dados)  
    3.3 [Mensageria e Filas](#mensageria-e-filas)  
@@ -26,19 +28,19 @@ Ele não contém código-fonte de serviços específicos, mas agrupa informaçõ
    3.8 [Boas práticas e padrões](#boas-práticas-e-padrões)  
    3.9 [Benefícios das boas práticas](#benefícios-das-boas-práticas)  
 
-4. [Como Rodar no Cluster MicroK8s Local](#como-rodar-no-cluster-microk8s-local)  
+5. [Como Rodar no Cluster MicroK8s Local](#como-rodar-no-cluster-microk8s-local)  
    4.1 [Infraestrutura do Cluster](#infraestrutura-do-cluster)  
    4.2 [Fluxo de Deploy](#fluxo-de-deploy)  
 
-5. [Como Rodar Localmente](#como-rodar-localmente)  
+6. [Como Rodar Localmente](#como-rodar-localmente)  
    5.1 [Pré-requisitos](#pré-requisitos)  
    5.2 [Passos](#passos)
     
-6. [Gerador de Swagger Automático](#gerador-de-swagger-automático)  
+7. [Gerador de Swagger Automático](#gerador-de-swagger-automático)  
 
-7. [Testes Unitários](#testes-unitários)
+8. [Testes Unitários](#testes-unitários)
 
-8. [Geração de Protobuff com Buf](#geração-de-protobuff-com-buf)
+9. [Geração de Protobuff com Buf](#geração-de-protobuff-com-buf)
 
 ---
 
@@ -69,6 +71,26 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 **Fluxo de CI/CD Futuro**:  
 ![Pipeline CI/CD Futuro](docs/CICDPROD.png)
 ---
+
+## FrontEnd Detalhes e Modais
+
+### Login e Registro
+![Login Screen](docs/LOGINSCREEN.png)
+![Register Screen](docs/REGISTERSCREEN.png)
+
+### Dashboard
+![Frontend Dashboard](docs/FRONTENDDASHBOARD.png)
+
+### Modais de Cliente
+![Details Modal 1](docs/DETAILSMODAL1.png)
+![Details Modal 2](docs/DEATAILSMODAL2.png)
+![Edit Modal](docs/EDITMODAL.png)
+![Delete Client Modal](docs/DELETECLIENTMODAL.png)
+
+## Fluxo de Transferência
+
+![Transfer Flow](docs/TRANSFERFLOW.png)
+
 
 ## Serviços Principais
 
