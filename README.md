@@ -10,10 +10,10 @@ Ele não contém código-fonte de serviços específicos, mas agrupa informaçõ
 ## Índice
 
 1. [Arquitetura](#arquitetura)  
-   1.1 [Principais características](#principais-características)  
-   1.2 [Diagramas](#diagramas)
-   1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)
-   1.4 [Fluxo de Transferência](#fluxo-de-transferência) 
+   1.1 [Principais características](#principais-características)       
+   1.2 [Diagramas](#diagramas)   
+   1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)   
+   1.4 [Fluxo de Transferência](#fluxo-de-transferência)   
 
 3. [Serviços Principais](#serviços-principais)  
 
@@ -127,7 +127,7 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 - **ConfigMaps / Secrets** – Gestão de configuração e credenciais por serviço.
 - **DockerHub** – Registry das imagens Docker geradas.
 - **Jeager** – Coleta, armazena e visualiza traces.
-- 
+  
 **Argo Local**:  
 ![Argo Local](docs/ARGO.png)
 
