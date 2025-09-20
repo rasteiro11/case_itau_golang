@@ -12,7 +12,7 @@ Ele não contém código-fonte de serviços específicos, mas agrupa informaçõ
 1. [Arquitetura](#arquitetura)  
    1.1 [Principais características](#principais-características)  
    1.2 [Diagramas](#diagramas)
-   1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)  
+   1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)
    1.4 [Fluxo de Transferência](#fluxo-de-transferência) 
 
 3. [Serviços Principais](#serviços-principais)  
@@ -84,6 +84,7 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 ### Modais de Cliente
 ![Details Modal 1](docs/DETAILSMODAL1.png)
 ![Details Modal 2](docs/DEATAILSMODAL2.png)
+![Create Client Modal](docs/NEWCLIENTMODAL.png)
 ![Edit Modal](docs/EDITMODAL.png)
 ![Delete Client Modal](docs/DELETECLIENTMODAL.png)
 
