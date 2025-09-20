@@ -254,10 +254,15 @@ Entre no diretório e rode o script:
 ---
 
 ## Geração de Protobuff com Buf
+1. Entre no diretório da aplicação:
+   ```bash
+   cd <diretório-da-aplicação>
+   ```
 
-1. Execute o comando:
+2. Execute o comando:
    ```bash
    buf generate https://github.com/rasteiro11/MCABankProtobuff.git
    ```
-2. Utilize os arquivos gerados em seus serviços para garantir consistência de contratos gRPC entre microsserviços.
+   
+3. Utilize os arquivos gerados em seus serviços para garantir consistência de contratos gRPC entre microsserviços.
 
