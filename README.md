@@ -36,7 +36,9 @@ Ele não contém código-fonte de serviços específicos, mas agrupa informaçõ
     
 6. [Gerador de Swagger Automático](#gerador-de-swagger-automático)  
 
-7. [Testes Unitários](#testes-unitários)  
+7. [Testes Unitários](#testes-unitários)
+
+8. [Geração de Protobuff com Buf](#geração-de-protobuff-com-buf)
 
 ---
 
@@ -249,3 +251,13 @@ Entre no diretório e rode o script:
    ```bash
    go test ./...
    ```
+---
+
+## Geração de Protobuff com Buf
+
+1. Execute o comando:
+   ```bash
+   buf generate https://github.com/rasteiro11/MCABankProtobuff.git
+   ```
+2. Utilize os arquivos gerados em seus serviços para garantir consistência de contratos gRPC entre microsserviços.
+
