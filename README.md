@@ -58,7 +58,7 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 ### Principais características:
 - Autenticação e autorização centralizadas  
 - Gerenciamento de clientes  
-- Processamento de pagamentos  
+- Processamento de pagamentos asíncrona utilizando idempotência e outbox pattern [Outbox Pattern]([https://git-scm.com/downloads](https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-outbox-cosmos))  
 - API Gateway para unificação do acesso  
 - Definições de contratos em Protobuff para comunicação eficiente  
 - Frontend web integrado aos serviços  
