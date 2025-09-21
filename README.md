@@ -20,7 +20,7 @@ Este repositório serve como ponto central de documentação e orquestração de
    1.1 [Principais características](#principais-características)       
    1.2 [Diagramas](#diagramas)   
    1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)   
-   1.4 [Fluxo de Transferência](#fluxo-de-transferência)
+   1.4 [Fluxo de Transferência](#fluxo-de-transferência)  
    1.5 [Banco de Dados](#banco-de-dados)   
 
 3. [Serviços Principais](#serviços-principais)  
