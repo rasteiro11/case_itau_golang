@@ -20,7 +20,8 @@ Este repositório serve como ponto central de documentação e orquestração de
    1.1 [Principais características](#principais-características)       
    1.2 [Diagramas](#diagramas)   
    1.3 [FrontEnd Detalhes e Modais](#frontend-detalhes-e-modais)   
-   1.4 [Fluxo de Transferência](#fluxo-de-transferência)   
+   1.4 [Fluxo de Transferência](#fluxo-de-transferência)
+     
 
 3. [Serviços Principais](#serviços-principais)  
 
@@ -102,6 +103,12 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 ## Fluxo de Criação de Cliente
 
 ![Create Customer Flow](docs/CREATECUSTOMERFLOW.png)
+
+### Banco de Dados
+
+Abaixo está o **Diagrama Entidade-Relacionamento (ER)** do banco:  
+
+![ER Diagram](docs/ER.png)
 
 ## Serviços Principais
 
