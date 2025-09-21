@@ -92,6 +92,9 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 
 ![Transfer Flow](docs/TRANSFERFLOW.png)
 
+## Fluxo de Criação de Cliente
+
+![Create Customer Flow](docs/CREATECUSTOMERFLOW.png)
 
 ## Serviços Principais
 
@@ -142,9 +145,9 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 - **GitOps** – Deploy e sincronização do estado do cluster via ArgoCD.
 
 ### Observabilidade
-- **Jaeger** – Planejado para tracing distribuído entre microsserviços.  
+- **Jaeger** – Tracing distribuído entre microsserviços.  
 - **OpenTelemetry** – Coleta unificada de métricas, traces e logs distribuídos.
-
+  
 ---
 
 ### Boas práticas e padrões
