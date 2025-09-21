@@ -2,9 +2,16 @@
 
 O **MCABank** é um sistema bancário digital construído sobre arquitetura de microserviços, com foco em segurança, escalabilidade e modularidade.  
 
-Este repositório serve como ponto central de documentação e orquestração de todos os serviços que compõem o ecossistema MCABank.  
-Ele não contém código-fonte de serviços específicos, mas agrupa informações, links e guias para facilitar o desenvolvimento e a operação.
+Este repositório serve como ponto central de documentação e orquestração de todos os serviços que compõem o ecossistema:  
 
+- **[MCABankAuth](https://github.com/rasteiro11/MCABankAuth)** → Autenticação, autorização e gestão de usuários.  
+- **[MCABankCustomer](https://github.com/rasteiro11/MCABankCustomer)** → Cadastro e gerenciamento de clientes.  
+- **[MCABankPayment](https://github.com/rasteiro11/MCABankPayment)** → Processamento de pagamentos.  
+- **[MCABankGateway](https://github.com/rasteiro11/MCABankGateway)** → API Gateway central para roteamento e segurança.  
+- **[MCABankProtobuff](https://github.com/rasteiro11/MCABankProtobuff)** → Contratos gRPC que padronizam a comunicação entre microserviços.  
+- **[MCABankFrontEnd](https://github.com/rasteiro11/MCABankFrontEnd)** → Aplicação web para interação com os serviços.  
+- **[PogCore](https://github.com/rasteiro11/PogCore)** → Framework base em Go para desenvolvimento de microserviços.
+  
 ---
 
 ## Índice
