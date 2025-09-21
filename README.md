@@ -59,7 +59,7 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 - Autenticação e autorização centralizadas  
 - Gerenciamento de clientes  
 - Processamento de pagamentos asíncrona utilizando idempotência e outbox pattern [Azure Transactional Outbox Pattern](https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-outbox-cosmos)  
-- API Gateway para unificação do acesso  
+- API Gateway para unificação do acesso [Azure Gateway Routing Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing) e [Azure Gateway Aggregation pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation)
 - Definições de contratos em Protobuff para comunicação eficiente  
 - Frontend web integrado aos serviços  
 
