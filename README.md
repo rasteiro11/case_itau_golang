@@ -68,14 +68,11 @@ O MCABank é dividido em múltiplos serviços independentes que se comunicam ent
 
 **Arquitetura Atual**:  
 ![Arquitetura Atual do MCABank](docs/MCABANKLOCAL.png)
-
 **Fluxo de CI/CD Atual**:  
 ![Pipeline CI/CD Atual](docs/MCACICD.png)
 ---
-
-**Arquitetura Futura**:  
+**Arquitetura Futura**: 
 ![Arquitetura Futura do MCABank](docs/MCABANKPRODFINAL.png)
-
 **Fluxo de CI/CD Futuro**:  
 ![Pipeline CI/CD Futuro](docs/CICDPROD.png)
 ---
